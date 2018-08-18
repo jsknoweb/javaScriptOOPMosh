@@ -1,0 +1,26 @@
+
+Avoid creating inheritance hierarchies
+Do not do more than one level of inheritance !!
+
+KEEP IT SIMPLE
+FAVOR COMPOSITION OVER INHERITANCE 
+
+Example:
+
+COMPLEX INHERITANCE
+
+                ANIMAL
+                eat()
+
+            MAMMAL        FISH
+            walk()        swim()
+
+        PERSON  DOG      GOLDFISH
+
+
+COMPOSITION
+
+    canWalk         canEat          canSwim
+
+    PERSON      GOLDFISH    ...
+

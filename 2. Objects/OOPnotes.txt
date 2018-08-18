@@ -1,0 +1,30 @@
+
+4 pillars of object-oriented programming
+	- Encapsulation
+	- Abstraction
+	- Inheritance
+	- Polymorphism
+	
+Encapsulation -> We group related variables and functions that operate of them into objects.
+	Attributes and behaviour (Properties and methods)
+
+	"The best functions are those with no parameters!" Uncle Bob - Robert C Martin
+	
+	Benefits:
+		- Reduce complexity
+		- Increase reusability
+
+Abstraction -> We hide most of the variables and functions of an object and make public a simple
+	interface to  interact with.
+	Benefits:
+		- Reduce complexity -> Simpler interface	
+		- Reduce the Impact of Change
+	
+Inheritance -> It's a mechanism that allows us to eliminate redundance code.
+	Benefits:
+		- Eliminate redundant code.
+		
+
+Polymorphism -> It's a mechanism that allows us to get ride of long if and else or swith case statements.
+	Benefits:
+		- Refactor ugly switch/case statements.
